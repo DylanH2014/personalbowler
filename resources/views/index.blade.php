@@ -1,3 +1,7 @@
+@extends('layout')
+
+
+@section('content')
 
 <div class="container">
 	<nav class="navbar navbar-default">
@@ -34,3 +38,5 @@
 		</form>
 	</div>
 </div>
+
+@endsection
