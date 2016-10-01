@@ -12,7 +12,8 @@
 			<ul class="nav navbar-nav">
 				<li><a href="/">Home</a></li>
 				<li><a href="/bowler/dylan">Dylan</a></li>
-				<li><a href="/bowler/justin">Justin</a></li> 
+				<li><a href="/bowler/justin">Justin</a></li>
+				<li><a href="/bowler/isaiah">Isaiah</a></li>  
 				<li><a href="/bowler/gary">Gary</a></li> 
 			</ul>
 		</div>
