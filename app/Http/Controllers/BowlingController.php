@@ -39,23 +39,23 @@ class BowlingController extends Controller
 
 	}
 
-	// public function show($id) {
+	public function show($id) {
 
-	// 	$game = Bowling::find($id);
+		$game = Bowling::find($id);
 
-	// 	return view('show', compact('game'));
+		return view('show', compact('game'));
 
-	// }
+	}
 
 
-	// public function showAll($user) {
+	public function showAll($user) {
 
-	// 	$allGames = Bowling::where('user', $user)->get();
+		$allGames = Bowling::where('user', $user)->get();
 
-	// 	// $allGames = DB::table('bowling')->where('user', $user)->get();
+		// $allGames = DB::table('bowling')->where('user', $user)->get();
 
-	// 	return view('showAll', compact('allGames'));
+		return view('showAll', compact('allGames'));
 
-	// }
+	}
 
 }
