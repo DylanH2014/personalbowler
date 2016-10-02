@@ -1,10 +1,10 @@
-@extends('layouts.app')
+@extends('layout')
 
 
 @section('content')
 
 <div class="container">
-{{-- 	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
 			<a class="navbar-brand">Bowling Tracker</a>
@@ -17,7 +17,39 @@
 				<li><a href="/bowler/gary">Gary</a></li> 
 			</ul>
 		</div>
-	</nav> --}}
+	</nav>
+
+	<div class="row">
+	<div class="col-md-4">
+		<div class="panel panel-default" style="height:250px;width:360px;">
+			<div class="panel-heading">High Score</div>
+				<div class="panel-body">
+					{{-- <img src="mb3.jpg" alt="cannot load image" `enter code here`class="img-responsive" />
+					<button type="button" class="btn btn-primary btn-block">button</button> --}}
+					
+				</div>
+			</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="panel panel-default" style="height:250px;width:360px;">
+			<div class="panel-heading">Average</div>
+				<div class="panel-body">
+
+				</div>
+			</div>
+	</div>
+	<div class="col-md-4">
+		<div class="panel panel-default" style="height:250px;width:360px;">
+			<div class="panel-heading">Recent</div>
+				<div class="panel-body">
+
+				</div>
+			</div>
+	</div>
+</div>
+
+
 
 	<div class="panel panel-primary">
 		<div class="panel-heading">
@@ -42,3 +74,4 @@
 </div>
 
 @endsection
+

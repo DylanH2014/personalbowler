@@ -17,6 +17,9 @@ class BowlingController extends Controller
     
 	public function index() {
 
+		dd(Auth::user()->name);
+		// Auth::user()->name 
+
 		return view('index');
 
 	}
