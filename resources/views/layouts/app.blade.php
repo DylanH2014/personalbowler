@@ -69,6 +69,9 @@
                                         {{ csrf_field() }}
                                     </form>
                                 </li>
+                                <li>
+                                    <a href="/dash">Dash</a>
+                                </li>
                             </ul>
                         </li>
                     @endif

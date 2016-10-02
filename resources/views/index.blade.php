@@ -10,7 +10,7 @@
 			<a class="navbar-brand">Bowling Tracker</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="/home">Home</a></li>
+				<li class="active"><a href="/dash">Home</a></li>
 				<li><a href="/bowler/dylan">Dylan</a></li>
 				<li><a href="/bowler/justin">Justin</a></li>
 				<li><a href="/bowler/isaiah">Isaiah</a></li> 

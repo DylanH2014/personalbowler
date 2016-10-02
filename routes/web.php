@@ -14,12 +14,11 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+	Auth::routes();
+	Route::get('/', 'HomeController@index');
 
-	Route::get('/home', 'BowlingController@index');
-	Route::post('/home', 'BowlingController@addGame');
+	Route::get('/dash', 'BowlingController@index');
+	Route::post('/dash', 'BowlingController@addGame');
 
 	Route::get('/game/{game}', 'BowlingController@show');
 	Route::get('/bowler/{name}', 'BowlingController@showAll');
-	Auth::routes();
-
-Route::get('/', 'HomeController@index');
