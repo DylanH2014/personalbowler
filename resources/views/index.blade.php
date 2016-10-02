@@ -1,10 +1,10 @@
-@extends('layout')
+@extends('layouts.app')
 
 
 @section('content')
 
 <div class="container">
-	<nav class="navbar navbar-default">
+{{-- 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
 			<a class="navbar-brand">Bowling Tracker</a>
@@ -17,7 +17,7 @@
 				<li><a href="/bowler/gary">Gary</a></li> 
 			</ul>
 		</div>
-	</nav>
+	</nav> --}}
 
 	<div class="panel panel-primary">
 		<div class="panel-heading">
