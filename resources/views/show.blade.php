@@ -24,7 +24,7 @@
 		</div>
 		<div class="panel-body">
 
-			<table class="table">
+			<table class="table tablesorter" id="gameTable">
 				<thead>
 					<tr>
 						<th>Game Id</th>
@@ -47,7 +47,18 @@
 
 </div>
 
+{{-- tablesorter plugin --}}
+<script>
+	$(document).ready(function() 
+	    { 
+	        $("#gameTable").tablesorter(); 
+	    } 
+	);
+</script> 
+    
 
 
 @endsection
+
+
 

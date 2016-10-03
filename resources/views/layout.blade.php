@@ -10,6 +10,7 @@
     
         <link rel="stylesheet" href=/bower_components/bootstrap/dist/css/bootstrap.min.css>
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/tablesorter/jquery.tablesorter.min.js"></script>
 
 
     </head>
